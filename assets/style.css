@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary: rgba(0,0,0,0.9);
+    --secondary: #91f5e7;
+    --white: rgb(255, 255, 255);
+    --blue: rgb(0, 81, 83);
+  }
+  
+  body {
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BFF88 0%, #2BD2FF 52%, #009790 90%);
+    background-size: cover;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+  }
+  
+  p {
+    color: aliceblue;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  
+  .page {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  .page h1 {
+    color: aliceblue;
+    text-decoration: underline #f00303 ;
+    text-underline-position: under;
+  }
+  
+  .btn {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 15px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #FA8BFF 0%, #2BFF88 0%, #2BD2FF 52%, #009790 90%);
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px white;
+    color: red;
+  }
+  
+  /* Header Style*/
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  header h3 {
+    font-size: 1rem;
+    display: inline;
+  }
+  
+  .timer {
+    font-size: 1.5rem;
+    color: var(--primary);
+    display: inline;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  /* Quiz Style */
+  
+  input[type=text] {
+   color: black;
+   font-size: 1.2rem;
+   border: 2px solid black;
+   display: inline-flex;
+   border-radius: 10px;
+   transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    background-color: var(--blue);
+    width: 60%;
+  }
+  
+  /* HighScore HTML */
+  
+  .page ol {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+ 
+  .highscore:hover {
+      color: red;
+  }
+  
