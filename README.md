@@ -1,7 +1,17 @@
 # Challenge 3 Code-quiz
 
 ## Purpose
-To build a coding quiz that meets the acceptance criteria.
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
 
 ## Built with
 HTML, CSS, JS
@@ -19,8 +29,6 @@ https://cannibalclarence.github.io/Code-quiz/
 ![Web capture_16-4-2022_183342_cannibalclarence github io](https://user-images.githubusercontent.com/100390351/163696504-f5c73433-2a30-4f8e-8e38-dd4ed3ce4203.jpeg)
 ![Web capture_16-4-2022_183434_cannibalclarence github io](https://user-images.githubusercontent.com/100390351/163696517-846667b0-4ca3-40f6-8b62-263d1ab781aa.jpeg)
 
-
-## Notes
 
 ## Contribution
 Made with love by Theo Phillips
